@@ -98,9 +98,10 @@ if($error){
 	sleep(1);
 	echo$ijo."[!] ".$putih."updating - please wait...\n\n";
 	//echo getcwd() . "\n";
+	mkdir("/new", 0700);
 	sleep(1);
     chdir ('../');
-	mkdir("/new", 0700);
+	
 	//echo getcwd() . "\n";
 	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
