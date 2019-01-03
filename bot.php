@@ -103,7 +103,7 @@ ${"GLOBALS"}["lbeuhlfg"]="akun";
 error_reporting(0);
 //echo${${"GLOBALS"}["zuupeplpj"]}."Bot for VEEU\n ".$t;
 //echo$ijo."Bot for VEEU [v.4.0]".$turkis."[final]".$putih."creator: ".$ijo."adidoank".$t;
-$ver = "5.03.217";
+$ver = "5.03.218";
 $release = "BETA";
 echo$ijo."Bot for VEEU [$ver]".$turkis." [$release]".$t.$t;
 //echo${${"GLOBALS"}["mlhvfsqvhbk"]}." Subscribe Youtube Sungging ".$t.$t;
@@ -115,7 +115,8 @@ foreach($ver_veeu as $ver_veeu){
     $error=true;
 if($ver == $ver_veeu ){
     //echo$red."[x] ".$putih."no updates".$t.$t;
-	//@system("rm -rf user");
+	sleep(1);
+	@system("rm -rf user");
     $error=false;
     }}
 if($error){
@@ -216,18 +217,17 @@ sleep(1);
 foreach($user_veeu as $user){   
 if($nik == $user ){
     echo$ijo." [+]\n";
-	//@system("rm -rf user");
+	@system("rm -rf user");
     $error=false;
     }}
 if($error){
     echo$red." [x]".$putih."".$t;
-	//@system("rm -rf user");
-    $err=true;
+	$err=true;
     }
     sleep(1);
 if($err){
 	echo$turkis."\n"."[?] help => vk.com/traidun90".$t;
-	//@system("rm -rf user");
+	@system("rm -rf user");
     exit;
     }}
 //end check user
