@@ -91,7 +91,6 @@ foreach($ver_veeu as $ver_veeu){
 if($ver == $ver_veeu ){
     //echo$red."[x] ".$putih."no updates".$t.$t;
 	@system("rm -rf user");
-	mkdir("bak");
     $error=false;
     }}
 if($error){
@@ -101,7 +100,7 @@ if($error){
 	//echo getcwd() . "\n";
 	sleep(1);
     chdir ('../');
-	mkdir("bak");
+	mkdir("/new", 0700);
 	//echo getcwd() . "\n";
 	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
