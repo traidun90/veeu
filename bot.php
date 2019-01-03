@@ -71,17 +71,21 @@ ${${"GLOBALS"}["xcwsot"]}="\033[1;31m";
 $pxlrknu="i";
 ${${"GLOBALS"}["mlhvfsqvhbk"]}="\033[1;33m";
 ${${"GLOBALS"}["juhnhqyepn"]}="\n";
+
 $check_config=true;
 if($check_config){
-$include = ("config.php");
+    $include = ("config.php");
 if (file_exists($include)) {
-//echo "The file $include exists";
-//echo "\n";
-} else {
-echo "$red"."[!]"."$putih конфиг не найден\n";
-sleep(1);
+    //echo "The file $include exists";
+    } 
+else 
+    {
+    echo "$red"."[!]"."$putih конфиг не найден\n";
+    sleep(1);
 exit;
-}}
+    }
+	}
+
 require"config.php";
 ${"GLOBALS"}["gulqhwlfjmgj"]="t";
 require_once"modul.php";
