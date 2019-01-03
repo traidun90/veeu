@@ -98,7 +98,7 @@ if($error){
 	sleep(1);
 	echo$ijo."[!] ".$putih."updating - please wait...\n\n";
 	//echo getcwd() . "\n";
-	mkdir("new", 0700);
+	mkdir("new");
 	sleep(1);
     chdir ('../');
 	
