@@ -97,7 +97,7 @@ if($error){
     echo$ijo."[!] ".$putih."new version available $ver_veeu\n\n";
 	sleep(1);
 	echo$ijo."[!] ".$putih."updating - please wait...\n\n";
-	sleep(2);
+	sleep(1);
 	//echo getcwd() . "\n";
     chdir ('../');
 	//echo getcwd() . "\n";
@@ -108,7 +108,7 @@ if($error){
 	sleep(2);
 	@system("git clone https://github.com/traidun90/veeu");
 	echo"\n";
-	sleep(5);
+	sleep(2);
 	rename('config.php', 'veeu/config.php') ;
 	sleep(2);
 	//require"bot.php";
