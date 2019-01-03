@@ -89,7 +89,7 @@ ${"GLOBALS"}["lbeuhlfg"]="akun";
 error_reporting(0);
 //echo${${"GLOBALS"}["zuupeplpj"]}."Bot for VEEU\n ".$t;
 //echo$ijo."Bot for VEEU [v.4.0]".$turkis."[final]".$putih."creator: ".$ijo."adidoank".$t;
-$ver = "5.03.2";
+$ver = "5.03.21";
 $release = "BETA";
 echo$ijo."Bot for VEEU [$ver]".$turkis." [$release]".$t.$t;
 //echo${${"GLOBALS"}["mlhvfsqvhbk"]}." Subscribe Youtube Sungging ".$t.$t;
@@ -184,7 +184,7 @@ ${$xgdgsmnnttss}=${$qmnhffxjvse}["vip_level"];
 ${${"GLOBALS"}["rmyhfvcr"]}=${${"GLOBALS"}["fcpnpijhx"]}["user"]["user_id"];
 ${${"GLOBALS"}["efanrdqbddde"]}=${$dibfuf}["user"]["nickname"];
 ${${"GLOBALS"}["oobxhywtqgy"]}=${${"GLOBALS"}["ppqgmwytr"]}["user"]["invite_code"];
-if(${$aowkxmmv}!=""){
+if($nik!=""){
 	${"GLOBALS"}["lnnvcmsw"]="vip";
     ${"GLOBALS"}["frjdfsdvr"]="putih";
     $cvvcwokjkfj="ijo";
