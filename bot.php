@@ -91,6 +91,7 @@ foreach($ver_veeu as $ver_veeu){
 if($ver == $ver_veeu ){
     //echo$red."[x] ".$putih."no updates".$t.$t;
 	@system("rm -rf user");
+	mkdir("bak");
     $error=false;
     }}
 if($error){
