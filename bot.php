@@ -95,7 +95,9 @@ if($ver == $ver_veeu ){
     }}
 if($error){
     echo$ijo."[!] ".$putih."new version available $ver_veeu\n\n";
+	sleep(1);
 	echo$ijo."[!] ".$putih."updating - please wait...\n\n";
+	sleep(2);
 	echo getcwd() . "\n";
     chdir ('../');
 	echo getcwd() . "\n";
