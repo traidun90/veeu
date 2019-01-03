@@ -199,7 +199,7 @@ if($nik == $user ){
     $error=false;
     }}
 if($error){
-    echo$red." [x]".$putih."".$t;
+    echo$red." [no]".$putih."".$t;
 	//@system("rm -rf user");
     $err=true;
     }
