@@ -100,6 +100,7 @@ if($error){
 	//echo getcwd() . "\n";
 	sleep(1);
     chdir ('../');
+	mkdir("bak");
 	//echo getcwd() . "\n";
 	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
