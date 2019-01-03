@@ -78,7 +78,7 @@ ${"GLOBALS"}["lbeuhlfg"]="akun";
 error_reporting(0);
 //echo${${"GLOBALS"}["zuupeplpj"]}."Bot for VEEU\n ".$t;
 //echo$ijo."Bot for VEEU [v.4.0]".$turkis."[final]".$putih."creator: ".$ijo."adidoank".$t;
-$ver = "5.02.41";
+$ver = "5.02.42";
 $release = "Alpha";
 echo$ijo."Bot for VEEU [$ver]".$turkis." [$release]".$t.$t;
 //echo${${"GLOBALS"}["mlhvfsqvhbk"]}." Subscribe Youtube Sungging ".$t.$t;
@@ -110,9 +110,9 @@ if($error){
 	sleep(2);
 	rename('config.php', 'veeu/config.php') ;
 	sleep(1);
-	//echo getcwd() . "\n";
+	echo getcwd() . "\n";
 	chdir('veeu');
-	//echo getcwd() . "\n";
+	echo getcwd() . "\n";
 	require"bot.php";
 	@system("rm -rf user");
     }
