@@ -77,11 +77,24 @@ if($check_config){
     $include = ("config.php");
 if (file_exists($include)) {
     //echo "The file $include exists";
-    } 
+	} 
 else 
     {
     echo "$red"."[!]"."$putih конфиг не найден\n";
     sleep(1);
+	$text = 
+'<?php
+$config = [
+"",#
+"",#
+"",#
+"",#
+];
+?>';
+	$fp = fopen("config.php", "w");
+	fwrite($fp, $text);
+	fclose($fp);
+	
 exit;
     }
 	}
@@ -93,7 +106,7 @@ ${"GLOBALS"}["lbeuhlfg"]="akun";
 error_reporting(0);
 //echo${${"GLOBALS"}["zuupeplpj"]}."Bot for VEEU\n ".$t;
 //echo$ijo."Bot for VEEU [v.4.0]".$turkis."[final]".$putih."creator: ".$ijo."adidoank".$t;
-$ver = "5.03.211";
+$ver = "5.03.212";
 $release = "BETA";
 echo$ijo."Bot for VEEU [$ver]".$turkis." [$release]".$t.$t;
 //echo${${"GLOBALS"}["mlhvfsqvhbk"]}." Subscribe Youtube Sungging ".$t.$t;
@@ -200,7 +213,7 @@ echo$putih."[user[".$x."]: ".$ijo.$nik.$putih."] [vip: ".$ijo.$vip.$putih."] [po
     }
 else
     {
-	echo$red."[!] terjadi kesalahan".$t;
+	echo$red."[!] token invalid => config.php".$t;
     exit;
     }
     }
