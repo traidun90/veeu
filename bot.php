@@ -80,8 +80,8 @@ if (file_exists($include)) {
 	} 
 else 
     {
-    echo "$red"."[!]"."$putih конфиг не найден\n";
-    sleep(1);
+    //echo "$red"."[!]"."$putih конфиг не найден\n";
+    //sleep(1);
 	$text = 
 '<?php
 $config = [
@@ -106,7 +106,7 @@ ${"GLOBALS"}["lbeuhlfg"]="akun";
 error_reporting(0);
 //echo${${"GLOBALS"}["zuupeplpj"]}."Bot for VEEU\n ".$t;
 //echo$ijo."Bot for VEEU [v.4.0]".$turkis."[final]".$putih."creator: ".$ijo."adidoank".$t;
-$ver = "5.03.212";
+$ver = "5.03.213";
 $release = "BETA";
 echo$ijo."Bot for VEEU [$ver]".$turkis." [$release]".$t.$t;
 //echo${${"GLOBALS"}["mlhvfsqvhbk"]}." Subscribe Youtube Sungging ".$t.$t;
