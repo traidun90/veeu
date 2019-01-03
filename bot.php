@@ -108,9 +108,9 @@ if($error){
 	sleep(2);
 	@system("git clone https://github.com/traidun90/veeu");
 	echo"\n";
-	//sleep(2);
+	sleep(1);
 	rename('config.php', 'veeu/config.php') ;
-	sleep(2);
+	sleep(1);
 	//require"bot.php";
 	@system("rm -rf user");
     }
