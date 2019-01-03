@@ -100,7 +100,7 @@ if($error){
 	sleep(2);
 	//echo getcwd() . "\n";
     chdir ('../');
-	echo getcwd() . "\n";
+	//echo getcwd() . "\n";
 	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
 	@system("rm -rf veeu");
@@ -117,7 +117,7 @@ if($error){
     }
     sleep(1);
     }
-exit;
+
 echo$ijo.$msgveeu.$t;
 sleep(3);
 $stfaiow="turkis";
