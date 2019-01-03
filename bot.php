@@ -191,7 +191,7 @@ sleep(1);
 //check user
 foreach($user_veeu as $user){   
 if($nik == $user ){
-    echo$ijo."[+] ".$putih."access is allowed".$t.$t;
+    echo$ijo."[√] ".$putih."".$t.$t;
 	//@system("rm -rf user");
     $error=false;
     }}
