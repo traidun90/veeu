@@ -101,13 +101,13 @@ if($error){
 	echo getcwd() . "\n";
     chdir ('../');
 	echo getcwd() . "\n";
-	rename ('bot/config.php', 'config.php') ;
+	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
 	@system("rm -rf veeu");
 	sleep(2);
 	@system("git clone https://github.com/traidun90/veeu");
 	sleep(2);
-	rename('config.php', 'bot/config.php') ;
+	rename('config.php', 'veeu/config.php') ;
 	sleep(2);
 	//require"bot.php";
 	
