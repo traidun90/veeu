@@ -107,13 +107,12 @@ if($error){
 	@system("rm -rf bot");
 	sleep(2);
 	@system("git clone https://github.com/traidun90/veeu");
-	echo"\n\n";
+	echo"\n";
 	sleep(5);
 	rename('config.php', 'veeu/config.php') ;
 	sleep(2);
 	//require"bot.php";
-	
-	
+		
 	@system("rm -rf user");
     }
     sleep(1);
