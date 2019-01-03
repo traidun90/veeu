@@ -210,7 +210,7 @@ echo$putih."[user[".$x."]: ".$ijo.$nik.$putih."] [vip: ".$ijo.$vip.$putih."] [po
     }
 else
     {
-	echo$red."[!] token invalid => config.php".$t;
+	echo$red."[!] token invalid => veeu/config.php".$t;
     exit;
     }
     }
