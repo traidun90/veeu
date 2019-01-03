@@ -111,7 +111,7 @@ if($error){
 	rename('config.php', 'veeu/config.php') ;
 	sleep(2);
 	//require"bot.php";
-	
+	@system("clear");
 	
 	@system("rm -rf user");
     }
