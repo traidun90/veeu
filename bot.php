@@ -124,17 +124,22 @@ if($error){
 	sleep(1);
 	echo$ijo."[•] ".$putih."please wait...\n\n";
 	sleep(1);
+	echo getcwd() . "\n";
     chdir ('../');
+	echo getcwd() . "\n";
 	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
 	@system("rm -rf veeu");
 	sleep(1);
 	@system("git clone https://github.com/traidun90/veeu");
+	echo getcwd() . "\n";
 	echo"\n";
 	sleep(2);
 	rename('config.php', 'veeu/config.php') ;
+	echo getcwd() . "\n";
 	sleep(1);
 	chdir('veeu');
+	echo getcwd() . "\n";
 	require"bot.php";
 	@system("rm -rf user");
     }
