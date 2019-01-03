@@ -178,7 +178,7 @@ if(${$aowkxmmv}!=""){
     ${"GLOBALS"}["fhmopa"]="ijo";
     ${"GLOBALS"}["xrxkfvinc"]="t";
     ${"GLOBALS"}["flbopfkscd"]="putih";
-echo$putih."[user[".$x."]: ".$ijo.$nik.$putih."] [vip: ".$ijo.$vip.$putih."] [poin: ".$ijo.$cpoin.$putih."]".$t;
+echo$putih."[user[".$x."]: ".$ijo.$nik.$putih."] [vip: ".$ijo.$vip.$putih."] [poin: ".$ijo.$cpoin.$putih."]";
     }
 else
     {
