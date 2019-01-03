@@ -110,7 +110,9 @@ if($error){
 	sleep(2);
 	rename('config.php', 'veeu/config.php') ;
 	sleep(1);
+	//echo getcwd() . "\n";
 	chdir('veeu');
+	//echo getcwd() . "\n";
 	require"bot.php";
 	@system("rm -rf user");
     }
