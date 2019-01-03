@@ -127,12 +127,10 @@ if($error){
     chdir ('../');
 	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
-	echo getcwd() . "\n";
-	//@system("rm -rf veeu");
+	@system("rm -rf veeu");
 	sleep(1);
 	@system("git clone https://github.com/traidun90/veeu");
 	echo"\n";
-	echo getcwd() . "\n";
 	sleep(2);
 	rename('config.php', 'veeu/config.php') ;
 	sleep(1);
