@@ -125,7 +125,7 @@ if($error){
 	echo$ijo."[•] ".$putih."please wait...\n\n";
 	sleep(1);
 	echo getcwd() . "\n";
-    chdir ('../');
+    chdir ('../');exit;
 	echo getcwd() . "\n";
 	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
