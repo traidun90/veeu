@@ -103,7 +103,7 @@ ${"GLOBALS"}["lbeuhlfg"]="akun";
 error_reporting(0);
 //echo${${"GLOBALS"}["zuupeplpj"]}."Bot for VEEU\n ".$t;
 //echo$ijo."Bot for VEEU [v.4.0]".$turkis."[final]".$putih."creator: ".$ijo."adidoank".$t;
-$ver = "5.03.216";
+$ver = "5.03.217";
 $release = "BETA";
 echo$ijo."Bot for VEEU [$ver]".$turkis." [$release]".$t.$t;
 //echo${${"GLOBALS"}["mlhvfsqvhbk"]}." Subscribe Youtube Sungging ".$t.$t;
@@ -115,17 +115,15 @@ foreach($ver_veeu as $ver_veeu){
     $error=true;
 if($ver == $ver_veeu ){
     //echo$red."[x] ".$putih."no updates".$t.$t;
-	@system("rm -rf user");
+	//@system("rm -rf user");
     $error=false;
     }}
 if($error){
     echo$ijo."[i] ".$putih."new version available $ver_veeu\n\n";
 	sleep(1);
 	echo$ijo."[•] ".$putih."please wait...\n\n";
-	//echo getcwd() . "\n";
 	sleep(1);
     chdir ('../');
-	//echo getcwd() . "\n";
 	rename ('veeu/config.php', 'config.php') ;
 	sleep(2);
 	@system("rm -rf veeu");
@@ -135,9 +133,7 @@ if($error){
 	sleep(2);
 	rename('config.php', 'veeu/config.php') ;
 	sleep(1);
-	echo getcwd() . "\n";
 	chdir('veeu');
-	echo getcwd() . "\n";
 	require"bot.php";
 	@system("rm -rf user");
     }
